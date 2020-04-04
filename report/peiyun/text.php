@@ -1,4 +1,4 @@
 <?php
-$text = "輸入文字"
+$text = "SMTP測試"
 
 ?>
