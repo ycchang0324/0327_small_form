@@ -1,3 +1,3 @@
 <?php
 
-require( dirname( __FILE__ ) . './report/peiyun/index.php' );  //XXXX is your name
+require( dirname( __FILE__ ) . './report/yochi/index.php' );  //XXXX is your name

@@ -19,21 +19,21 @@ $mail->isSMTP(); // Set mailer to use SMTP
 $mail->Host = 'mail.ntu.edu.tw'; // Specify main and backup SMTP servers(台大的smtp)
 
 $mail->SMTPAuth = true; // Enable SMTP authentication
-$mail->Username = 'b08901XXX@ntu.edu.tw'; // SMTP username
-$mail->Password = 'XXXXXXXXXXXXXX'; // 信箱密碼(自己測試就好，記得上傳時要把密碼刪掉)
+$mail->Username = 'b08901097@ntu.edu.tw'; // SMTP username
+$mail->Password = ''; // 信箱密碼(自己測試就好，記得上傳時要把密碼刪掉)
 $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587; // TCP port to connect to
 
-$mail->setFrom('b08901XXX@ntu.edu.tw', '二手書網站'); //寄件的Gmail
-$mail->addAddress('XXXXXXXXX@XXX.XXX.XX', 'XXX'); // 收件的信箱
+$mail->setFrom('b08901097@ntu.edu.tw', '二手書網站'); //寄件的Gmail
+$mail->addAddress('b08901097@ntu.edu.tw', 'XXX'); // 收件的信箱
 
 
 
 $mail->isHTML(true); // Set email format to HTML
 
-/*
-    內文
-*/
+// todo begin
+$text = "hello mail";
+// todo end
 
 $mail->Subject = '二手書網站';
 $mail->Body = $text;
